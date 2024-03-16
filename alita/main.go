@@ -7,8 +7,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/divideprojects/Alita_Robot/alita/db"
-	"github.com/divideprojects/Alita_Robot/alita/modules"
+	"github.com/luffytaro-7/Alita_Robot/alita/db"
+	"github.com/luffytaro-7/Alita_Robot/alita/modules"
 
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/PaulSonOfLars/gotgbot/v2/ext"

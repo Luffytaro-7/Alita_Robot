@@ -1,52 +1,51 @@
 {
-  "name": "Alita_Robot",
-  "description": "Alita is a Telegram Group management bot made using gotgbot and Go, which makes it modern and faster than most of the Telegram chat managers.",
+  "name": "A124_Robot",
+  "description": "A124 is a Telegram Group management bot made using gotgbot and Go, which makes it modern and faster than most of the Telegram chat managers.",
   "keywords": [
     "telegram bot",
     "group bot",
     "group",
     "manager",
-    "alita",
-    "alita_robot"
+    "a124",
+    "a124_robot"
   ],
   "repository": "https://github.com/divkix/Alita_Robot",
-  "website": "https://divideprojects.com",
   "success_url": "https://t.me/DivideProjects",
   "env": {
     "BOT_TOKEN": {
       "description": "Your telegram bot token, get from @Botfather in telegram.",
       "required": true,
-      "value": ""
+      "value": "7070648755:AAFDP_xdPoxqo2cVBXWEa49k99SwAP8sids"
     },
     "APP_ID": {
       "description": "Get API_ID from my.telegram.org, used for pyrogram base.",
       "required": true,
-      "value": ""
+      "value": "23913652"
     },
     "API_HASH": {
       "description": "Get API_HASH from my.telegram.org, used for pyrogram base.",
       "required": true,
-      "value": ""
+      "value": "99383e8046e0d7696aa8d73a504486de"
     },
     "DB_URI": {
       "description": "Your MongoDB connection string.",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://whepzoyj:samtrex07@a124.h6gd2od.mongodb.net/?retryWrites=true&w=majority&appName=a124"
     },
     "DB_NAME": {
       "description": "Your MongoDB database name.",
       "required": true,
-      "value": "alita"
+      "value": "a124"
     },
     "OWNER_ID": {
       "description": "Your user ID as an integer.",
       "required": true,
-      "value": ""
+      "value": "6805772957"
     },
     "MESSAGE_DUMP": {
       "description": "Event logs channel where bot will send updates. Starts with -100",
       "required": true,
-      "value": ""
+      "value": "-1001991639692"
     }
   },
   "buildpacks": [
